@@ -21,8 +21,8 @@ function Header() {
           <Button color="inherit" component={RouterLink} to="/" >{t("HOME")}</Button>
           <Button color="inherit" component={RouterLink} to="/about">{t("ABOUT")}</Button>
         
-          <Button color="inherit" onClick={() => changeLanguage("fi")} >Fi</Button>
-          <Button color="inherit" onClick={() => changeLanguage("en")} >En</Button>
+          <Button id='fi' color="inherit" onClick={() => changeLanguage("fi")} >Fi</Button>
+          <Button id='en' color="inherit" onClick={() => changeLanguage("en")} >En</Button>
             
         </Toolbar>
       </AppBar>
