@@ -30,7 +30,6 @@ function About() {
             mounted = false
         }
     }, [])
-    console.log(aboutData)
     const listItems = aboutData.map((item) => {
         return <li key={item.id} >{item.title}</li>
     })

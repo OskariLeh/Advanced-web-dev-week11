@@ -10,7 +10,6 @@ function Header() {
   const { t, i18n } = useTranslation();
   const changeLanguage = (lang) => {
     i18n.changeLanguage(lang)
-    console.log("hei")
   }
 
   return (
